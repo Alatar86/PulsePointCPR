@@ -55,4 +55,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Set initial active state
     setActiveNav();
+
+    // Newsletter form handling
+    const newsletterForm = document.getElementById('newsletterForm');
+    if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.querySelector('input[type="email"]').value;
+            
+            // Show success message (in a real app, you'd send this to your email service)
+            alert(`Thank you! Your 20% discount code has been sent to ${email}. Check your inbox in a few minutes.`);
+            
+            // Reset form
+            this.reset();
+        });
+    }
 });
