@@ -1,3 +1,14 @@
+// Page Loading Animation
+window.addEventListener('load', function() {
+    const loader = document.getElementById('pageLoader');
+    setTimeout(() => {
+        loader.classList.add('fade-out');
+        setTimeout(() => {
+            loader.style.display = 'none';
+        }, 500);
+    }, 1000);
+});
+
 // Initialize AOS (Animate On Scroll)
 document.addEventListener('DOMContentLoaded', function() {
     AOS.init({

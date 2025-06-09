@@ -6,10 +6,16 @@
     <meta name="description" content="PulsePoint CPR - American Heart Association certified CPR, AED, and First Aid classes in South Carolina">
     <title>PulsePoint CPR - Get Certified. Save a Life.</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loading-animation.css">
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 <body>
+    <!-- Loading Animation -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader"></div>
+    </div>
+    
     <header class="site-header">
         <div class="container header-container">
             <h1 class="logo">PulsePoint CPR</h1>
@@ -74,6 +80,29 @@
             </div>
         </section>
 
+        <section class="certifications">
+            <div class="container">
+                <div class="cert-badges" data-aos="fade-up" data-aos-duration="600">
+                    <div class="cert-badge">
+                        <div class="badge-icon">🏆</div>
+                        <span>AHA Certified</span>
+                    </div>
+                    <div class="cert-badge">
+                        <div class="badge-icon">⭐</div>
+                        <span>15+ Years Experience</span>
+                    </div>
+                    <div class="cert-badge">
+                        <div class="badge-icon">👥</div>
+                        <span>1000+ Students Trained</span>
+                    </div>
+                    <div class="cert-badge">
+                        <div class="badge-icon">📋</div>
+                        <span>State Licensed</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="about" id="about">
             <div class="container">
                 <div class="about-content">
@@ -83,6 +112,29 @@
                     <div class="about-text" data-aos="fade-left" data-aos-duration="600">
                         <h2>Your Trusted Instructor</h2>
                         <p>With over 15 years of experience in emergency medical services and a passion for community education, our lead instructor brings real-world expertise to every class. As an American Heart Association certified instructor, we're committed to providing the highest quality training that empowers you to save lives. Our mission is simple: to ensure every participant leaves our classes with the knowledge, skills, and confidence to make a difference when seconds count.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="600">What Our Students Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-duration="600">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Excellent training! The hands-on approach made me feel confident in my abilities. I already had to use my CPR skills once and I knew exactly what to do."</p>
+                        <div class="testimonial-author">- Sarah M., Teacher</div>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Professional, thorough, and engaging. The instructor's real-world experience really shows. My entire team got certified here."</p>
+                        <div class="testimonial-author">- Mike R., Restaurant Manager</div>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Clear instruction, great materials, and flexible scheduling. Worth every penny for the peace of mind."</p>
+                        <div class="testimonial-author">- Jennifer L., Parent</div>
                     </div>
                 </div>
             </div>
