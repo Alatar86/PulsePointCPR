@@ -1,16 +1,121 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PulsePoint CPR - American Heart Association certified CPR, AED, and First Aid classes in South Carolina">
+    <title>PulsePoint CPR - Get Certified. Save a Life.</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-</body>
+    <header class="site-header">
+        <div class="container header-container">
+            <h1 class="logo">PulsePoint CPR</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <main>
+        <section class="hero" role="banner">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="800">
+                <h2 class="hero-title">Get Certified. Save a Life.</h2>
+                <p class="hero-subtitle">American Heart Association certified training that prepares you for life's critical moments</p>
+                <a href="#contact" class="cta-button">View Class Schedule</a>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Our Certification Courses</h2>
+                <div class="services-grid">
+                    <article class="service-card" data-aos="fade-up" data-aos-duration="600">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </div>
+                        <h3>CPR Certification</h3>
+                        <p>Learn life-saving cardiopulmonary resuscitation techniques for adults, children, and infants. Our hands-on training ensures you're prepared to respond confidently in emergency situations.</p>
+                    </article>
+
+                    <article class="service-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                                <path d="M8 6h8v7H8z"></path>
+                            </svg>
+                        </div>
+                        <h3>AED Training</h3>
+                        <p>Master the use of Automated External Defibrillators with practical scenarios. Learn when and how to use this critical device that can restart a heart and save lives.</p>
+                    </article>
+
+                    <article class="service-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="9" y1="9" x2="15" y2="9"></line>
+                                <line x1="12" y1="6" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <h3>First Aid</h3>
+                        <p>Comprehensive first aid training covering wounds, burns, fractures, and medical emergencies. Gain the skills and confidence to provide immediate care when it matters most.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image" data-aos="fade-right" data-aos-duration="600">
+                        <div class="image-placeholder">
+                            <span>Instructor Photo</span>
+                        </div>
+                    </div>
+                    <div class="about-text" data-aos="fade-left" data-aos-duration="600">
+                        <h2>Your Trusted Instructor</h2>
+                        <p>With over 15 years of experience in emergency medical services and a passion for community education, our lead instructor brings real-world expertise to every class. As an American Heart Association certified instructor, we're committed to providing the highest quality training that empowers you to save lives. Our mission is simple: to ensure every participant leaves our classes with the knowledge, skills, and confidence to make a difference when seconds count.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="600">Ready to Get Started?</h2>
+                <div class="contact-info" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                    <div class="contact-item">
+                        <h3>Email Us</h3>
+                        <p><a href="mailto:info@pulsepointcpr.com">info@pulsepointcpr.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Call Us</h3>
+                        <p><a href="tel:+18435551234">(843) 555-1234</a></p>
+                    </div>
+                </div>
+                <p class="contact-cta" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Contact us today to schedule your certification or learn about group training options for your organization.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 PulsePoint CPR. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
